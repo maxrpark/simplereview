@@ -8,7 +8,7 @@
 
 <!-- Take a look at the docs and examples on [simpleCode](https://simple-code.netlify.app/) -->
 
-Take a look at the example on [codepen](https://codepen.io/maxrpark/pen/ExwXRPb).
+Take a look at the example on [codepen](https://codepen.io/maxrpark/pen/zYpYpKB).
 
 This package is really simple to use and you can have a stars review ready to use but will customizable features too.
 
@@ -190,8 +190,4 @@ resultValue will make the review static, the value can not be updated if you cli
   selectedColor="black"
   ls="true"
 ></div>
-```
-
-```
-
 ```
