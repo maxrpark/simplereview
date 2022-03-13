@@ -2,6 +2,9 @@ function simplereview() {
   const mainContainer = document.querySelectorAll('.simpleReview');
 
   mainContainer.forEach((singleContainer) => {
+    if (!singleContainer.id) {
+      singleContainer.id = 'simpleReview' + Math.floor(Math.random() * 100);
+    }
     let id = singleContainer.id;
     const reviewContainer = document.querySelector(`#${id}`);
 
@@ -18,7 +21,7 @@ function simplereview() {
       reviewContainer.hasAttribute('ls') &&
       reviewContainer.attributes.ls.value === 'true'
     ) {
-      rating = localStorage.getItem(`${id}`, rating);
+      rating = localStorage.getItem(`${id}`);
     }
     reviewContainer.setAttribute('totalRating', rating);
 
@@ -38,6 +41,7 @@ function simplereview() {
     }
 
     let starNumber = 5;
+
     for (let i = 0; i < starNumber; i++) {
       const starContainer = document.createElement('span');
       starContainer.classList.add(`star${id}`);
