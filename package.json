@@ -1,6 +1,6 @@
 {
   "name": "simplereview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple review npm package",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,11 @@
   "keywords": [
     "review",
     "reviews",
-    "stars"
+    "stars",
+    "stars review"
   ],
   "author": "Maxi Ruti",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maxrpark/simplereview/issues"
   },
