@@ -6,7 +6,7 @@
 
 # Simple Review
 
-Take a look at the docs and examples on [simpleCode](https://simple-code.netlify.app/carrousel/intro.html)
+Take a look at the docs and examples on [simpleCode](https://simple-code.netlify.app/review/intro.html)
 
 Take a look at the example on [codepen](https://codepen.io/maxrpark/pen/zYpYpKB).
 
