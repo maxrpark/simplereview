@@ -1,6 +1,6 @@
 {
   "name": "simplereview",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple review npm package",
   "main": "index.js",
   "scripts": {
