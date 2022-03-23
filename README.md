@@ -36,7 +36,7 @@ import simplereview from './node_modules/simplereview/index.js';
 
 #### Javascript
 
-After registering the package inside your javascript file you just need to initiate the package this:
+After registering the package inside your javascript file you just need to iniciate the package like this:
 
 ```js
 simplereview();
@@ -46,13 +46,9 @@ simplereview();
 
 Your javascript file must be type="module".
 
-<!-- #### Vue
+#### Frameworks
 
-```js
-  mounted() {
-    simplereview();;
-  },
-``` -->
+For static data you can iniciate the package when the component is mouting. If you are going to use it with dynamic data read **_Dynamic data_** section at the end of file.
 
 ## Template
 
@@ -191,3 +187,14 @@ resultValue will make the review static, the value can not be updated if you cli
   ls="true"
 ></div>
 ```
+
+## Dynamic data
+
+To use Simple Review with dynamic data, you need to initiate the package after you get the data. For example in plain javascript you need to do this:
+
+1. Select the container
+2. Fetch the data
+3. After you get the data, you can map over it and create the slides
+4. Initiate the package
+
+You can adapt this to your favorite framework.
