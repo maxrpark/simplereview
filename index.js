@@ -42,24 +42,18 @@ function simplereview() {
 
     let starNumber = 5;
 
-    for (let i = 0; i < starNumber; i++) {
-      const starContainer = document.createElement('span');
-      starContainer.style.display = 'flex';
+    if (reviewContainer.childElementCount < starNumber) {
+      for (let i = 0; i < starNumber; i++) {
+        const starContainer = document.createElement('span');
+        starContainer.style.display = 'flex';
 
-      starContainer.classList.add(`star${id}`);
-      reviewContainer.appendChild(starContainer);
+        starContainer.classList.add(`star${id}`);
+        reviewContainer.appendChild(starContainer);
+      }
     }
 
     // select all starts in the container
     const stars = document.querySelectorAll(`.star${id}`);
-
-    stars.forEach((star, index) => {
-      star.setAttribute('startnumber', index + 1);
-      if (star.attributes.startnumber.value > 5) {
-        star.remove();
-      }
-    });
-
     const Unselected = `<svg height="25" width="23" class="star rating" >
     <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="${baseSelectedColor}"/>
   </svg>`;
