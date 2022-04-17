@@ -44,8 +44,14 @@ function simplereview() {
 
     for (let i = 0; i < starNumber; i++) {
       const starContainer = document.createElement('span');
+      starContainer.style.display = 'flex';
+
       starContainer.classList.add(`star${id}`);
       reviewContainer.appendChild(starContainer);
+
+      if (!starContainer.id) {
+        starContainer.id = 'star' + reviewContainer.id;
+      }
     }
 
     // select all starts in the container
