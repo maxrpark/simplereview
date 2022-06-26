@@ -4,7 +4,7 @@
 
 # Simple Review
 
-Note: If you enjoy the package, I would appreciate and be very grateful if you endorse me on [LinkedIn](https://www.linkedin.com/feed/) 😇, because it would help me tremendously.
+Note: If you enjoy the package, I would appreciate and be very grateful if you endorse me on [LinkedIn](https://www.linkedin.com/in/maxi-ruti-202988227/) 😇, because it would help me tremendously.
 
 Take a look at the docs and examples on [simpleCode](https://simple-code.netlify.app/review/intro.html)
 
