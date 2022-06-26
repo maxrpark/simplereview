@@ -1,10 +1,10 @@
 <div align="center">
 <h1>Simple Review </h1>
-  
-![alt text](https://img.shields.io/badge/My%20first%20NPM%20package-2.0.0-red)  ![alt text](https://img.shields.io/badge/Made%20by-Max-brightgreen) ![alt text](https://img.shields.io/badge/NPM%20package-True-red)
 </div>
 
 # Simple Review
+
+Note: If you enjoy the package, I would appreciate and be very grateful if you endorse me on [LinkedIn](https://www.linkedin.com/feed/) 😇, because it would help me tremendously.
 
 Take a look at the docs and examples on [simpleCode](https://simple-code.netlify.app/review/intro.html)
 
@@ -25,13 +25,13 @@ npm i simplereview
 ### Register the packeget
 
 ```js
-import simplereview from 'simplereview';
+import simplereview from "simplereview";
 ```
 
 or
 
 ```js
-import simplereview from './node_modules/simplereview/index.js';
+import simplereview from "./node_modules/simplereview/index.js";
 ```
 
 #### Javascript
@@ -77,7 +77,7 @@ If you want to get the value of the review you can access it by selecting the el
 example
 
 ```js
-const reviewOne = document.querySelector('#review1');
+const reviewOne = document.querySelector("#review1");
 ```
 
 ```js
@@ -89,20 +89,20 @@ You can attach a click event to the review container or get the value after clic
 ### click event on the review container
 
 ```js
-reviewOne.addEventListener('click', () => {
-  let value = ratingOne.attributes.totalrating.value;
-  console.log(value);
+reviewOne.addEventListener("click", () => {
+    let value = ratingOne.attributes.totalrating.value;
+    console.log(value);
 });
 ```
 
 ### click event on a buttom
 
 ```js
-const btn = document.querySelector('#btn1');
+const btn = document.querySelector("#btn1");
 
-ratingOne.addEventListener('click', () => {
-  let value = ratingOne.attributes.totalrating.value;
-  console.log(+value);
+ratingOne.addEventListener("click", () => {
+    let value = ratingOne.attributes.totalrating.value;
+    console.log(+value);
 });
 ```
 
@@ -151,7 +151,7 @@ You can also get the value from the local storage by querying the id.:
 example
 
 ```js
-const ratingLS = localStorage.getItem('rating1');
+const ratingLS = localStorage.getItem("rating1");
 ```
 
 ### View Result
@@ -181,10 +181,10 @@ resultValue will make the review static, the value can not be updated if you cli
 
 ```html
 <div
-  class="simpleReview"
-  baseSelectedColor="red"
-  selectedColor="black"
-  ls="true"
+    class="simpleReview"
+    baseSelectedColor="red"
+    selectedColor="black"
+    ls="true"
 ></div>
 ```
 
